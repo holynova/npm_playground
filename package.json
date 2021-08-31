@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+     "release": "np --no-2fa"
+  },
   "author": "",
   "license": "MIT"
 }
