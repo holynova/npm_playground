@@ -11,8 +11,8 @@ const config = {
         clean: true,
         path: path.resolve(__dirname, 'dist'),
         library: {
-            // name:'sym',
-            type:'module'
+            name:'sym',
+            type:'umd'
         }
     },
     plugins: [
