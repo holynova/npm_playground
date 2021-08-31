@@ -10,6 +10,10 @@ const config = {
     output: {
         clean: true,
         path: path.resolve(__dirname, 'dist'),
+        library: {
+            // name:'sym',
+            type:'module'
+        }
     },
     plugins: [
         // Add your plugins here
