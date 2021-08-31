@@ -1,4 +1,4 @@
-export function greetings() {
+function greetings() {
     console.log('hello world')
 }
 
