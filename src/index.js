@@ -1,7 +1,5 @@
-function greetings() {
-    console.log('hello world')
-}
 
-module.exports = {
-    greetings,
+import * as random from './random'
+export default {
+  random
 }
