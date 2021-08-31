@@ -5,7 +5,10 @@
   "main": "dist/main.js",
   "module": "dist/main.js",
   "jsnext:main": "dist/main.js",
-  "files": ["dist","src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "release": "np --no-2fa",
     "build": "webpack --mode=production --node-env=production",
