@@ -3,9 +3,7 @@
   "version": "1.0.5",
   "description": "",
   "main": "dist/main.js",
-  "files": [
-    "dist/main.js"
-  ],
+
   "scripts": {
     "release": "np --no-2fa",
     "build": "webpack --mode=production --node-env=production",
